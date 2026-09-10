@@ -1,5 +1,5 @@
 // Stargazer theme - adapted for NJU
-#import "@preview/touying:0.6.1": *
+#import "@preview/touying:0.7.4": *
 #import themes.dewdrop: *
 
 #let nju-theme(
@@ -24,6 +24,9 @@
       // logo: image("nju-logo.png"),
     ),
     primary: rgb(77, 0, 153),
+    mini-slides: (
+      linebreaks: false,
+    ),
     ..args,
   )
 
